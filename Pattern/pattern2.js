@@ -7,8 +7,6 @@ for(let i=1;i<=n;i++){
     console.log(row)
 }
 
-
-
 for(let i=1;i<=n;i++){
     let row ="";
     for(let j=1;j<=i;j++){
@@ -16,7 +14,6 @@ for(let i=1;i<=n;i++){
     }
     console.log(row)
 }
-
 
 for(let i=0;i<5;i++){
     let row ="";
@@ -35,7 +32,6 @@ for(let i=0;i<5;i++){
     }
     console.log(row)
 }
-
 
 for(let i=0;i<5;i++){
     let row ="";
