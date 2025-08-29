@@ -9,8 +9,7 @@ function insertAtPos(arr, N, len, K, pos) {
         console.log(arr)
     }else{
         console.log("dummy")
-    }
-    
+    }   
 }
 
 let arr2 = [10, 20, 30, 40];
