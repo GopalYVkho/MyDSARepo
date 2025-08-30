@@ -4,7 +4,7 @@ function count(a){
     a = Math.abs(a)
     let count_note = 0;
     while(a>0){
-        a = Math.floor(a/10);
+        a = Math.floor(a/10);//*
         count_note++
     }
     return count_note
@@ -17,3 +17,8 @@ console.log(c)
 // Edge Case
 // s=0
 // s=-234
+
+// Math.round()
+// Math.ceil()
+// Math.floor()
+// Math.abs()
