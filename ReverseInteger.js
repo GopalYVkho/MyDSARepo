@@ -10,7 +10,6 @@ function reverseInteger(x){
 
 }
 
-
 console.log(reverseInteger(123))
 console.log(reverseInteger(-123))
 console.log(reverseInteger(100))
