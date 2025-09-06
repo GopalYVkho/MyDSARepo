@@ -4,8 +4,11 @@ function RemoveElement(nums,value){
     for(let i=0;i<nums.length;i++){
         if(value != nums[i]){
             nums[x]=nums[i]
+            
             x++
         }
+
+
     }
     return nums
 }
