@@ -17,7 +17,6 @@ function Palindrome(x){
 
 console.log(Palindrome(1234))
 console.log(Palindrome(121))
-console.log(Palindrome(-121))
 
 
 // edge case
