@@ -23,3 +23,7 @@ var reversePrefix = function(word, ch) {
 
 reversePrefix("abcdefd","d")
 reversePrefix("xyxzxe","z")
+
+// Lession learned
+// string canot swap
+// conver to array then swap then join
