@@ -5,3 +5,15 @@
   every level of the component tree.”
 
 “React Context allows components to share global data without prop drilling.”
+
+const ThemeContext = React.createContext();
+
+Parent Component
+<ThemeContext.Provider value={"dark"}>
+  <Child />
+</ThemeContext.Provider>
+
+Child Component
+const theme = React.useContext(ThemeContext);
+console.log(theme); // "dark"
+
