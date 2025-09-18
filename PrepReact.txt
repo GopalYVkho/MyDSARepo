@@ -1,0 +1,7 @@
+
+2.what is react context?
+“React Context is a way to create a global data store in a React application. It
+ allows you to share data between components without having to pass props through
+  every level of the component tree.”
+
+“React Context allows components to share global data without prop drilling.”
