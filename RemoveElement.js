@@ -1,14 +1,10 @@
 function RemoveElement(nums,value){
     let x = 0;
-    let temp
     for(let i=0;i<nums.length;i++){
         if(value != nums[i]){
             nums[x]=nums[i]
-            
             x++
         }
-
-
     }
     return nums
 }
