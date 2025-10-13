@@ -2,7 +2,7 @@ function reverseInteger(x){
     var check = x<0?true:false;
     let convert = String(x);
     let i=convert.length-1
-    let j =""
+    let j =""   
     for(i;i>=0;i--){
         j=j+convert[i]
     }

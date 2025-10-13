@@ -17,3 +17,18 @@ Child Component
 const theme = React.useContext(ThemeContext);
 console.log(theme); // "dark"
 
+
+3.What is diffrent way to add css to your file?
+inline css
+internal css
+external css
+
+4.HMR
+Hot Module Replacement, or HMR, is a development feature (commonly in React/webpack) 
+that updates only the changed modules in the browser without doing a full page reload. 
+This helps us see changes instantly and keeps the app state intact
+
+“It allows fast development by replacing updated code on the fly, without losing the current state.”
+
+5.
+
