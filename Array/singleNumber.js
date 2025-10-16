@@ -3,5 +3,7 @@ var singleNumber = function(nums) {
     for(let i=0;i<nums.length;i++){
         xor = xor^nums[i]; 
     }
-    return xor;
+    console.log(xor);
 };
+
+singleNumber([4,1,2,1,2])
